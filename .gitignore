@@ -1,0 +1,63 @@
+# Remove all reports
+*.html
+*.pdf
+*.docx
+*.pptx
+
+# Ignore secure data folders
+data/*
+!data/README.md
+*/data/*
+!*/data/README.md
+
+# Ignore the outputs folders
+outputs/*
+*/outputs/*
+
+# Keep specific data files
+!data/prepared_training_data/nairobi2_training_features.csv
+!data/prepared_training_data/nairobi_training_features.csv
+
+# Ignore R specific files
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Ignore python specific files
+.env
+.venv
+.ipynb_checkpoints
+*/python/.ipynb_checkpoints/*
+.vscode/
+*/__pycache__/*
+*src/python/truck_detection/__pycache__*
+*src/python/DEBUG*
+
+#Spyder project files
+*.ini
+*.bak
+
+# Ignore jupyter notebooks - avoids potentially sharing data/results - specific to `ships` workstream at the moment
+ships/src/python/*.ipynb
+
+# Ignore csv files throughout to avoid data being pushed to GitHub
+src/python/*.csv
+src/R/*.csv
+*/src/python/*.csv
+*/src/R/*.csv
+
+
+src/python/chip_nairobi_long.ipynb
+*.pyc
+cspell.json
+docs/source/_autosummary/*
+
+# Ignore mac specific files
+.DS_Store
+
+# Ignore the trucks docs
+docs/build/*
+

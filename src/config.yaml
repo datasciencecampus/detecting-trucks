@@ -1,0 +1,22 @@
+# Configuration file for defining some common variables that are necessary to
+# run the Python scripts.
+# These same variables can be passed as command line arguments when running
+# each script. But the values in this file are read by default when no command
+# line arguments are given. This allows quicker setting of these variables if
+# working through project on single dataset. See docs for more details.
+#-------------------------------------------------------------------------------
+
+#-------------------------------------------------------------------------------
+# The location variable:
+# a string describing the area of interest, as defined in image extraction
+# notebook and used throughout for file and directory naming.
+#-------------------------------------------------------------------------------
+location: lisbon
+
+#-------------------------------------------------------------------------------
+# An observation date:
+# a date from one of the extracted S2 images to be used in the image chipping
+# process. The choice of date is inconsequential but must match one of the
+# extracted S2 images. The correct format is yyyy-MM-dd.
+#-------------------------------------------------------------------------------
+single_date: 2021-07-01
