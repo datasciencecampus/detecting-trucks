@@ -6,6 +6,7 @@
 [![black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 [![status: experimental](https://github.com/GIScience/badges/raw/master/status/experimental.svg)](https://github.com/GIScience/badges#experimental)
 [![status: archive](https://github.com/GIScience/badges/raw/master/status/archive.svg)](https://github.com/GIScience/badges#archive)
+[![Twitter](https://img.shields.io/twitter/url?label=Follow%20%40DataSciCampus&style=social&url=https%3A%2F%2Ftwitter.com%2FDataSciCampus)](https://twitter.com/DataSciCampus)
 
 # Faster Economic Indicators: Detecting Trucks :truck: :articulated_lorry:
 
@@ -83,7 +84,7 @@ However, this is not recommended on a Windows machine as some packages
 
 ### Build the docs
 
-The required packages for building the docs should have been installed through the dependencies section above. To build the docs navigate to the `trucks/docs/` in the terminal and run:
+The required packages for building the docs should have been installed through the dependencies section above. To build the docs navigate to `docs/` in the terminal and run:
 
 ```shell
 make clean | make html
