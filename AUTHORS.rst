@@ -11,9 +11,9 @@ Project Development Leads
 
 Code Publication and Documentation Lead
 ---------------------------------------
-* Data Science Campus, `Timothy Green <https://github.com/TSGreen>`_ <tim.green@ons.gov.uk>
+* Data Science Campus, `Timothy Green <https://github.com/TSGreen>`_ 
 
 
 Contributors
 ------------
-* Data Science Campus, `Joseph Crispell <https://github.com/JosephCrispell>`_ <joseph.crispell@ons.gov.uk>
+* Data Science Campus, `Joseph Crispell <https://github.com/JosephCrispell>`_
